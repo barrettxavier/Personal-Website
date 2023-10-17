@@ -9,7 +9,7 @@
 
 #header {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background-image: url(images/wallpaperflare.com_wallpaper.jpg);
   background-position: center;
   background-size: cover;
@@ -19,6 +19,12 @@
 #header-about {
   width: 100%;
   height: 2600px;
+  background-color: black;
+}
+
+#header-portfolio {
+  width: 100%;
+  height: 2700px;
   background-color: black;
 }
 
@@ -61,6 +67,8 @@ nav ul li a:hover {
   color: #ff3366;
 }
 
+/* About Me CSS */
+
 .about-me {
   margin: 150px 150px;
   width: 100%;
@@ -75,13 +83,13 @@ nav ul li a:hover {
 }
 
 .category-1 {
-  border-bottom: 1px dashed grey;
+  border-bottom: 2px dashed rgb(77, 77, 77);
   width: 200px;
   height: 150px;
 }
 
 .category-1-header {
-  border-left: 1px dashed grey;
+  border-left: 2px dashed rgb(77, 77, 77);
   padding-left: 70px;
   padding-top: 50px;
   width: 100%;
@@ -112,13 +120,13 @@ nav ul li a:hover {
 }
 
 .category-2 {
-  border-bottom: 1px dashed grey;
+  border-bottom: 2px dashed rgb(77, 77, 77);
   width: 200px;
   height: 150px;
 }
 
 .category-2-header {
-  border-left: 1px dashed white;
+  border-left: 2px dashed rgb(77, 77, 77);
   padding-left: 70px;
   padding-top: 50px;
   width: 100%;
@@ -147,6 +155,104 @@ nav ul li a:hover {
   width: 400px;
   margin: 0 15;
 }
+
+
+/* Portfolio CSS */
+
+.portfolio {
+  margin: 100px 150px;
+  width: 100%;
+}
+
+.container-portfolio {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 700px;
+}
+
+.portfolio-1-header {
+  padding-left: 70px;
+  padding-top: 50px;
+  width: 1200px;
+  text-align: right;
+  border-bottom: 2px dashed rgb(77, 77, 77);
+  margin-bottom: 25px;
+}
+
+.portfolio-1-header p {
+  font-size: 80px;
+}
+
+.portfolio-1-text p {
+  text-align: left;
+  width: 1200px;
+  margin-top: 70px;
+  font-size: 24px;
+}
+
+.portfolio-1-images {
+  width: 900px;
+  margin-top: 50px;
+}
+
+.portfolio-1-imgs {
+  display: flex;
+}
+
+.portfolio-1-imgs img {
+  width: 350px;
+  margin: 0 15;
+}
+
+
+
+.portfolio-2 {
+  margin-top: 1000px;
+  margin-left: 150px;
+  width: 100%;
+}
+
+.container-portfolio {
+  display: flex;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 200px;
+}
+
+.portfolio-2-header {
+  padding-left: 70px;
+  padding-top: 50px;
+  width: 1200px;
+  text-align: right;
+  margin-bottom: 25px;
+}
+
+.portfolio-2-header p {
+  font-size: 80px;
+}
+
+.portfolio-2-text p {
+  text-align: left;
+  width: 1200px;
+  margin-top: 70px;
+  font-size: 24px;
+}
+
+.portfolio-2-images {
+  width: 900px;
+  margin-top: 50px;
+}
+
+.portfolio-2-imgs {
+  display: flex;
+}
+
+.portfolio-2-imgs img {
+  width: 350px;
+  margin: 0 15;
+}
+
 
 
 
