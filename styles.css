@@ -58,6 +58,16 @@ nav ul li a:hover {
   text-align: center;
 }
 
+.header-text-contact {
+  margin-top: 15vh;
+  text-align: center;
+}
+
+.header-text-contact h1{
+  margin-bottom: 15px;
+  font-size: 80px;
+}
+
 .header-text h1{
   margin-bottom: 15px;
   font-size: 80px;
